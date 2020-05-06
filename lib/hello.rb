@@ -21,7 +21,7 @@
 
 def hello_t(array)
   array.each do |name|
-    if name.start_with("T")
+    if name[0] == ("T")
       puts "Hi, #{name}"
     end
   end
