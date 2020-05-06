@@ -25,6 +25,7 @@ def hello_t(array)
       puts "Hi, #{name}"
     end
   end
+  array
 end
 
 hello_t(["Tim", "Tom", "Jerry"])
