@@ -26,3 +26,5 @@ def hello_t(array)
     end
   end
 end
+
+hello_t(["Tim", "Tom", "Jerry"])
